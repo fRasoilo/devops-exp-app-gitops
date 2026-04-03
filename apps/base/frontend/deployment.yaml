@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: frontend:latest
+          image: ghcr.io/frasoilo/study-app-web:latest
           ports:
             - containerPort: 22111
           env:
